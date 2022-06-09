@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosseo.Exercises.Ticketin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colosseo.Exercises.Ticketing.PopulateDatabase", "Colosseo.Exercises.Ticketing.PopulateDatabase\Colosseo.Exercises.Ticketing.PopulateDatabase.csproj", "{E9A818D4-9915-469E-847A-41DA75F772F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Api.v1", "Ticketing.Api.v1\Ticketing.Api.v1.csproj", "{404313E7-B9D9-4F73-BD4C-55981C358664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticketing.Api.v1", "Ticketing.Api.v1\Ticketing.Api.v1.csproj", "{404313E7-B9D9-4F73-BD4C-55981C358664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Dto", "Ticketing.Dto\Ticketing.Dto.csproj", "{6C49A0EC-1CE2-439B-A328-C7CCC02C25B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticketing.Dto", "Ticketing.Dto\Ticketing.Dto.csproj", "{6C49A0EC-1CE2-439B-A328-C7CCC02C25B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.ConsoleTestClient", "Ticketing.ConsoleTestClient\Ticketing.ConsoleTestClient.csproj", "{ABDE1FB0-640D-4FDF-B2E0-F55E3C5EC163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6C49A0EC-1CE2-439B-A328-C7CCC02C25B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C49A0EC-1CE2-439B-A328-C7CCC02C25B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C49A0EC-1CE2-439B-A328-C7CCC02C25B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDE1FB0-640D-4FDF-B2E0-F55E3C5EC163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDE1FB0-640D-4FDF-B2E0-F55E3C5EC163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDE1FB0-640D-4FDF-B2E0-F55E3C5EC163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDE1FB0-640D-4FDF-B2E0-F55E3C5EC163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

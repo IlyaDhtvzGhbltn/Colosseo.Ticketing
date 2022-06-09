@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ticketing.ConsoleTestClient": {
+      "commandName": "Project",
+      "commandLineArgs": "lockseat -eventid=7 -seatid=5 -name=Boris"
+    }
+  }
+}

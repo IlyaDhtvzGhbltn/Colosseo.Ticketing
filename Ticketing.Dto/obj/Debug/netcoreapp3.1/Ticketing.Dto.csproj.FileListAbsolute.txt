@@ -1,0 +1,13 @@
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\bin\Debug\netcoreapp3.1\Ticketing.Dto.deps.json
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\bin\Debug\netcoreapp3.1\Ticketing.Dto.dll
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\bin\Debug\netcoreapp3.1\Ticketing.Dto.pdb
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\bin\Debug\netcoreapp3.1\Colosseo.Exercises.Ticketing.Data.dll
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\bin\Debug\netcoreapp3.1\Colosseo.Exercises.Ticketing.Data.pdb
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.csproj.AssemblyReference.cache
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.AssemblyInfoInputs.cache
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.AssemblyInfo.cs
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.csproj.CoreCompileInputs.cache
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.csproj.CopyComplete
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.dll
+D:\MyUtilits\ColosseoEAS\Colosseo.Exercises.Ticketing\Ticketing.Dto\obj\Debug\netcoreapp3.1\Ticketing.Dto.pdb

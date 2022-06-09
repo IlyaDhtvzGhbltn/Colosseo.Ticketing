@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Colosseo.Exercises.Ticketing.Data\Colosseo.Exercises.Ticketing.Data.csproj" />
+    <ProjectReference Include="..\Ticketing.Dto\Ticketing.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

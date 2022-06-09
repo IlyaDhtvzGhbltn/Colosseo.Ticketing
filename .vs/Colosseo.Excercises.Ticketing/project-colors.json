@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9a818d4-9915-469e-847a-41da75f772f1": {
+      "ProjectGuid": "e9a818d4-9915-469e-847a-41da75f772f1",
+      "DisplayName": "Colosseo.Exercises.Ticketing.PopulateDatabase",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

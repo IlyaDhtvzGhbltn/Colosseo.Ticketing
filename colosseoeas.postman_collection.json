@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "83b08f54-1138-4c46-8cd0-05ba47923634",
+		"name": "colosseoeas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4507102"
+	},
+	"item": [
+		{
+			"name": "Events",
+			"item": [
+				{
+					"name": "Get all events",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44344/api/v1/event/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"event",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all seats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44344/api/v1/event/7/seats/all",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"event",
+								"7",
+								"seats",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get free seats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44344/api/v1/event/7/seats/free",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"event",
+								"7",
+								"seats",
+								"free"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get tickets by event",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44344/api/v1/event/7/tickets",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"event",
+								"7",
+								"tickets"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tickets",
+			"item": [
+				{
+					"name": "Set Seatlock",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"EventId\" : 7,\r\n    \"SeatId\": 658\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44344/api/v1/ticket/setlock",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"ticket",
+								"setlock"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create new Ticket",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"EventId\" : 7,\r\n    \"SeatId\": 679,\r\n    \"OwnerName\" : \"Ivan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44344/api/v1/ticket/new",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"ticket",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete ticket",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44344/api/v1/ticket/cancel/321",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44344",
+							"path": [
+								"api",
+								"v1",
+								"ticket",
+								"cancel",
+								"321"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

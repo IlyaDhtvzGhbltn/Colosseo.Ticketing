@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Ticketing.Dto\\Ticketing.Dto.csproj": {}
+  },
+  "projects": {
+    "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\Colosseo.Exercises.Ticketing.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\Colosseo.Exercises.Ticketing.Data.csproj",
+        "projectName": "Colosseo.Exercises.Ticketing.Data",
+        "projectPath": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\Colosseo.Exercises.Ticketing.Data.csproj",
+        "packagesPath": "D:\\Nuget\\Packages",
+        "outputPath": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i.ryazanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Ticketing.Dto\\Ticketing.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Ticketing.Dto\\Ticketing.Dto.csproj",
+        "projectName": "Ticketing.Dto",
+        "projectPath": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Ticketing.Dto\\Ticketing.Dto.csproj",
+        "packagesPath": "D:\\Nuget\\Packages",
+        "outputPath": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Ticketing.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i.ryazanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\Colosseo.Exercises.Ticketing.Data.csproj": {
+                "projectPath": "D:\\MyUtilits\\ColosseoEAS\\Colosseo.Exercises.Ticketing\\Colosseo.Exercises.Ticketing.Data\\Colosseo.Exercises.Ticketing.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
